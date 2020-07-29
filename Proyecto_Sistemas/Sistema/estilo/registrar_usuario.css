@@ -1,0 +1,67 @@
+*{
+
+	box-sizing: border-box;
+
+}
+.formulario{
+
+	width: 100%;
+	max-width: 500px;
+	margin: auto;
+	background: #4D7D7D;
+	border-radius: 7px;
+}
+
+form h2{
+	text-align: center;
+	color: white;
+	padding: 20px;
+	font-weight: 100;
+}
+form input{
+	font-size: 16px;
+	padding: 15px;
+   margin-bottom: 15px;
+
+}
+.contenedor_input{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.input_grande{
+
+width: 100%;
+}
+.input-pequeño{
+	width: 49%;
+
+}
+.rol{
+	padding: 15px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.btn{
+	background: #35B9B9;
+	color: white;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+.cancelar{
+	background: #E8401B;
+	color: white;
+	padding: 10px 40px;
+	cursor: pointer;
+}
+.error{
+	color: red;
+}
+.campo{
+	text-align: right;
+	padding: 5px;
+
+}

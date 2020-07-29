@@ -1,0 +1,106 @@
+table{
+	border-collapse: collapse;
+	margin: auto;
+	width: 60%;
+
+}
+table td{
+	border: 1px solid #000;
+	padding: 15px;
+	font-size: 14px;
+
+}
+.encabezado{
+	background: #35B9B9;
+	font-weight: bold;
+}
+.muestras:hover{
+background: #ccc;
+
+}
+
+.filtro{
+
+	width: 60%;
+	margin:auto;
+	background: #4D7D7D;
+}
+h2{
+	width: 100%;
+	height: 60px;
+	padding: 15px;
+	text-align: center;
+
+}
+.formulario{
+
+	width: 100%;
+
+	text-align: center;
+	padding: 10px;
+
+}
+.formulario input{
+	padding: 5px;
+}
+.formulario select{
+	padding: 5px;
+}
+.btn{
+	color: black;
+	width:10%;
+	padding: 8px;
+	background: #35B9B9;
+	border:0;
+	opacity: 0.8;
+	cursor: pointer;
+	border-radius: 20px;
+
+}
+.paginador{
+	margin: auto;
+	width: 60%;
+
+
+}
+.paginador ul{
+	padding: 15px;
+	list-style: none;
+	background: white;
+	margin-top: 15px;
+	display: flex;
+	justify-content: flex-end;
+}
+.paginador a, .pageSelected{
+
+	color: #428bca;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 35px;
+}
+.paginador a:hover{
+
+	background: #ddd;
+}
+.pageSelected{
+	color: white;
+	background: #428bca;
+	border: 1px solid #428bca;
+}
+
+.registrar_usuario{
+	width: 15%;
+	text-align: center;
+	
+}
+.registrar_usuario > a{
+
+	background: #35B9B9;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+
+}
